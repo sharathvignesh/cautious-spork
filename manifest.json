@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "reviewnot",
+  "description": "Hide moview reviews",
+  "version": "1",
+  "author": "Sharath Vignesh",
+  "browser_action": {
+  "default_icon": "tab-icon.png",
+  "default_title": "No more spoilers"
+  },
+  "chrome_url_overrides" : {
+  "newtab": "newtab.html"
+  },
+  "permissions": ["activeTab"]
+}
