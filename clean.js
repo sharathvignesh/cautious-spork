@@ -7,13 +7,11 @@ var bannedTerms = [];
 
 var DEBUG = false;
 var DEBUG_DOMAIN = "athletics.bowdoin.edu"; // for testing
-var DEBUG_TERM = "trump"; // for testing
+var DEBUG_TERM = "supercalifragilisticexpialidocious"; // for testing
 
 function cleanNewsFeed(){
 	chrome.storage.sync.get('banValue', function (data) {
-		if(_.includes(bannedTerms, data.banValue) == false) {
-			bannedTerms.push(data.banValue);
-		}
+		bannedTerms = data.banValue;
 	});
 	console.log(bannedTerms);
 	chrome.storage.sync.get("clean_news_feed", function(data){
