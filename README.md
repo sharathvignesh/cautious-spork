@@ -22,7 +22,7 @@ On Chrome:
 That's it. You wont see anymore posts which has the above banned keyword in it.
 
 #### Todo
-- [] Push to Chrome app store.
-- [] Show the existing words on the banned list.
+- [ ] Push to Chrome app store.
+- [ ] Show the existing words on the banned list.
 
 
