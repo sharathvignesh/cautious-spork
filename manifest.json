@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
 
-  "name": "reviewnot",
-  "description": "Hide those spoilers.",
+  "name": "cautious-spork",
+  "description": "Hide those movie spoilers and annoying posts from fb!",
   "version": "1",
 
   "icons": {
@@ -29,7 +29,7 @@
   ],
 
   "page_action": {
-    "default_title": "Reviewnot",
+    "default_title": "cautious-spork",
     "default_icon": "images/icon.png",
     "default_popup": "popup.html"
   }
