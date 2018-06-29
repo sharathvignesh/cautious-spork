@@ -1,6 +1,7 @@
 # cautious-spork
 
 ![](images/icon.png)
+Logo Credits : [@suresh](https://github.com/sureshmurali)
 
 Tired of seeing the movie spoilers in fb ? A simple chrome-extension to block annoying posts in Facebook based on keywords.
 
